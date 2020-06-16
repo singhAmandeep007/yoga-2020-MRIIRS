@@ -8,9 +8,18 @@
     <!-- Site Properties -->
     <title>Homepage</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <style>
+     body {
+      background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F1C18, #8E0E00), /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+    };
+    
+    </style>
     </head>
     <body>
-      <div class="ui inverted segment">
+      <div class="ui inverted segment" >
         <div href="#"class="ui inverted secondary menu">
           <a href="/"class="active item">
             <i class="home icon"></i>Home
@@ -24,9 +33,9 @@
         </div>
       </div>
     <div class="ui main text container">
-      <div class="ui huge header">Yoga </div>
+      <div class="ui huge header"><h1 style="color:#fff;text-align: center;">YOGA ASANAS</h1> </div>
       <div class="ui inverted segment">
-        <p>Here are all the aasan in Yoga</p>
+        <p>"Yoga begins with listening. When we listen, we are giving space to what is"</p>
       </div>
      <div class="ui top attached segment">
 
@@ -49,26 +58,21 @@
            
         </div>
         <div class="content  customHead">
-          <a class="header" href="#"><h3><%= y.english_name %></h3></a>
+          <a class="header" href="#"><h3 style="color:#db2828"><%= y.english_name %></h3></a>
           <div class="meta">
            
-            <span class="cinema"><%= y.created_at %></span>
+            <span class="cinema"><%= y.created_at.substring(0,10) %></span>
           </div>
    
-          <div class="description">      
-           
-            
-               
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, et repellat!  nihil ex quaerat nam fuga quo.</p>
-               
-                    
+          <div class="description">                     
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, et repellat!  nihil ex quaerat nam fuga quo.</p>                   
           </div>
     
         
            <div class="extra ">
              <a target="blank"href="http://www.google.com/search?q=<%=y.sanskrit_name%>" >
               <div class="ui inverted red animated button" tabindex="0">
-                <div class="visible content">Google It</div>
+                <div class="visible content">Check on Google &nbsp;&nbsp;</div>
                 <div class="hidden content">
                   <i class="chevron right circle icon"></i>
                 </div>
@@ -78,7 +82,7 @@
               <div class="ui inverted primary animated button" tabindex="0">
                    <div class="visible content">Check on Youtube</div>
                    <div class="hidden content">
-                     <i class="edit  icon"></i>
+                    <i class="chevron right circle icon"></i>
                    </div>
                  </div>
            </a>
