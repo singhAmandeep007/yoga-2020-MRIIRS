@@ -1,12 +1,12 @@
 var express=require('express');
 var app=express();
-var axios=require('axios');
+//var axios=require('axios');
 
 const yoga = require('./yoga.json')
 //request required to get data from api
-var request= require('request');
+//var request= require('request');
 //console.log(yoga)
-const fs = require('fs');
+//const fs = require('fs');
 app.use(express.static(__dirname+'/public'));
 
 
