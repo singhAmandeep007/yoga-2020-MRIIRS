@@ -52,7 +52,8 @@ background: linear-gradient(to right, #1F1C18, #8E0E00), /* W3C, IE 10+/ Edge, F
                 <%=y.sanskrit_name %>             
               </div>
               
-              <img style="border: 1px solid black;"class="img" src="<%=y.img_url%>" alt="someImage">
+              <img style="border: 1px solid black; height: 200px; width:100%;float:left;
+             " class="img" src="<%=y.img_url%>" alt="someImage">
             </div>
             </div>
            
@@ -64,7 +65,8 @@ background: linear-gradient(to right, #1F1C18, #8E0E00), /* W3C, IE 10+/ Edge, F
             <span class="cinema"><%= y.created_at.substring(0,10) %></span>
           </div>
    
-          <div class="description">                     
+  
+          <div class="ui tiny header">                     
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, et repellat!  nihil ex quaerat nam fuga quo.</p>                   
           </div>
     
@@ -100,9 +102,9 @@ background: linear-gradient(to right, #1F1C18, #8E0E00), /* W3C, IE 10+/ Edge, F
     </div>
      
     </div>
-    <hr>
+    <br>
    <footer>
-     <h1 style="text-align: center;">Proudly Made with <i class="heart icon"></i> by Amandeep Singh</h1>
+     <h1 style="text-align: center; background-color: rgb(241, 175, 175);">Proudly Made with <i class="heart icon"></i> by Amandeep Singh</h1>
    </footer>
   
   </body>
