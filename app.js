@@ -36,6 +36,6 @@ app.get("/",function(req,res){
 app.get('/home',(req,res)=>{
     res.render('landing.ejs')
 })
-app.listen(3000,function(){
-    console.log("server started");
+app.listen(process.env.PORT|| 3000,function(){
+    console.log("server is up")
 });
