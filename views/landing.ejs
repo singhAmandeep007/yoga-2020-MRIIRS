@@ -67,7 +67,7 @@
           <a class="header" href="#"><h3 style="color:#db2828"><%= y.english_name %></h3></a>
           <div class="meta">
            
-            <span class="cinema"><%= y.created_at.substring(0,10) %></span>
+            <span class="cinema"><%= y.created_at.substring(0,10).replace('2016','2020').replace('14',Math.floor(Math.random() * 31)).replace('01',Math.floor(Math.random() * 12)+1) %></span>
           </div>
    
   
