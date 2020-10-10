@@ -10,10 +10,11 @@ Simple Website on Yoga (Web Dev. Competition)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
 ![Semantic UI](https://img.shields.io/badge/-SemanticUI-563D7C?style=flat-square)
 
-##Further features that can be added-:
+
 ```diff
 + Fully responsive and fast.
 + Many features yet to be added
+  Further features that can be added-:
 - user login
 - mongodb database
 - image upload
