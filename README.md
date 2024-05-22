@@ -1,5 +1,4 @@
 ## Fancy seeing you here! <img src="https://i.pinimg.com/originals/64/41/61/644161b5ce15397473f2c4a49620ee8f.gif" width="30px">
-live preview-http://yoga2020.herokuapp.com
 Simple Website on Yoga (Web Dev. Competition)
 
 ## ⚡ Technologies
